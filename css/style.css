@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Sora:wght@200;300;400;500;600;700;800&display=swap');
+*
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Sora, sans-serif;
+}
+
+.container 
+{
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+/* Header */
+.header 
+{
+    height: 10vh;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header__ul 
+{
+    display: flex;
+    align-items: center;
+}
+.header__ul li a
+{
+    margin: 0 1rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: #6E7275;
+    
+}
+/* Main */
+
+.main 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #EFF8FF;    
+}
+.main-text__title 
+{
+    font-family: Sora, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #293145;
+    width: 150%;
+}
+.main__button 
+{
+    width: 200px;
+    height: 56px;
+    background-color: #0F9AFE;
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 66px;
+
+}
+
+/* Section */
+
+.section 
+{
+    margin-top: 1rem;
+}
+.section__about 
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 6rem;
+}
+.section__title 
+{
+    font-size: 40px;
+    color: #293145;
+    font-weight: 600;
+    text-align: center;
+}
+.section__content 
+{
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+}
+.section-content__area 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-content__area h5 
+{
+    margin-top: 1rem;
+    color: #293145;
+    font-weight: 600;
+}
+.section__content img 
+{
+    width: 68px;
+
+}
+.section-lorem__ipsum 
+{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+    text-align: center;
+    margin: 1rem 0;
+    
+}
+
+/* App */
+
+.app 
+{
+    height: auto;
+    background-color: #EFF8FF;
+}
+.app__elements 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    text-align: center;
+}
+.app-left__texts 
+{
+    margin-top: 117px;
+}
+.app-left-texts__p 
+{
+    color: #293145;
+    font-size: 32px;
+    font-weight: 600;
+}
+.app-left-texts__p2 
+{
+    width: 443px;
+    text-align: justify;
+    margin-top: 1rem;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #6E7275;
+}
+.app-left__store 
+{
+    display: flex;
+    justify-content: flex-start;
+    transform: translateX(-5px);
+    margin-top: 1rem;
+}
+
+/* Plans */
+
+.plans 
+{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.plans__texts 
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.plans__h3 
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: #293145;
+    margin-top: 1rem;
+}
+.plans__p 
+{
+    text-align: center;
+    margin-top: 1rem;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #6E7275;
+}
+.plans__boxs 
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5rem;
+}
+.plans__box
+{
+    height: 471px;
+    width: 350px;
+    background-color: #EFF8FF;
+    padding: 2rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.plans__boxs .prata 
+{
+    background-color: #293145;
+}
+.plans__boxs .prata h3 
+{
+    color: #fff;
+    margin-top: 0;
+}
+ .prata .plans-box__lorem
+{
+    color: #fff!important;
+}
+.plans-box__fav 
+{
+    width: 164px;
+    height: 27px;
+    background: #0F9AFE;
+    box-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin: 1rem;
+}
+.prata .plans-box-prices__price p
+{
+    margin-top: 0;
+}
+.plans__box .prata p 
+{
+    color: #fff;
+}
+.plans-box__h3 
+{
+    text-align: center;
+    font-weight: 600;
+    color: #293145;
+    font-size: 24px;
+}
+.plans-box-prices__price 
+{
+    display: flex;
+    font-size: 50px;
+    font-weight: 700;
+    color: #293145;
+    margin-top: 2rem;
+    font-family: Roboto, sans-serif;
+    
+}
+.plans-box-prices__price p 
+{
+    font-size: 20px;
+    font-weight: 700;
+}
+.plans-box-prices__price .left 
+{
+    transform: translateY(7px);
+} 
+.plans-box-prices__price .right 
+{
+    transform: translateY(26px);
+}
+.plans-box__lorem 
+{
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-weight: 400 ;
+    color: #6E7275 ;
+    width: 300px;
+    font-size: 18px;
+    margin-top: 3rem;
+}
+.plans-box__button 
+{
+    width: 230px;
+    height: 43px;
+    background: #0F9AFE;
+    box-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);
+    border-radius: 50px;
+    margin-top: 5rem;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    
+}
+.prata .plans-box__button 
+{
+    transform: translateY(-25px);
+}
+
+/* Contact */
+
+.contact 
+{
+    background: url(../assets/telphonebg.svg);
+    background-size: cover;
+    height: 382px;
+    margin-top: 5rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    flex-direction: column;
+    align-items: center;
+}
+.contact__h3 
+{
+    font-size: 40px;
+}
+.contact__p 
+{
+    width: 528px;
+    text-align: center;
+    margin-top: 1rem;
+}
+.contact__form 
+{
+    display: flex;
+    align-items: center;
+    margin-top: 6rem;
+}
+.contact__form input 
+{
+    border: none;
+    background: none;
+    border-bottom: 1px solid #fff;
+    height: 40px;
+    width: 300px;
+    outline: none;
+}
+.contact__form input::-webkit-input-placeholder 
+{
+    color: #fff;
+    font-size: 1rem;
+}
+ .contact__form input::after 
+ {
+     content: '';
+     background: #fff;
+     height: 2px;
+     width: 180px;
+ }
+ .contact__form button 
+ {
+     background: #0F9AFE;
+     border: none;
+    width: 118px;
+    height: 38px;
+    color: #fff;
+    margin-left: 3rem;
+    border-radius: 50px;
+ }
+
+ /* Footer */
+
+ .footer 
+ {
+     height: 15vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+.footer h4 
+{
+     color: #293145;
+     font-weight: 400;
+     font-size: 20px;
+ }
